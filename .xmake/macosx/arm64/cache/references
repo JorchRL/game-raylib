@@ -1,0 +1,6 @@
+{
+    packages = {
+        "/Users/jorge/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5",
+        "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6"
+    }
+}

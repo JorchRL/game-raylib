@@ -1,0 +1,34 @@
+{
+    files = {
+        "build/.objs/my_game/macosx/arm64/release/src/grid.cpp.o",
+        "build/.objs/my_game/macosx/arm64/release/src/main.cpp.o"
+    },
+    values = {
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+        {
+            "-target",
+            "arm64-apple-macos12.3",
+            "-isysroot",
+            "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+            "-lz",
+            "-L/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6/lib",
+            "-Wl,-x",
+            "-Wl,-dead_strip",
+            "-lraylib",
+            "-framework",
+            "CoreVideo",
+            "-framework",
+            "CoreGraphics",
+            "-framework",
+            "AppKit",
+            "-framework",
+            "IOKit",
+            "-framework",
+            "CoreFoundation",
+            "-framework",
+            "Foundation",
+            "-framework",
+            "OpenGL"
+        }
+    }
+}

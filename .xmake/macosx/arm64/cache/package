@@ -1,0 +1,38 @@
+{
+    raylib = {
+        frameworks = {
+            "CoreVideo",
+            "CoreGraphics",
+            "AppKit",
+            "IOKit",
+            "CoreFoundation",
+            "Foundation",
+            "OpenGL"
+        },
+        defines = "GL_SILENCE_DEPRECATION",
+        links = "raylib",
+        static = true,
+        version = "5.0",
+        libfiles = "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6/lib/libraylib.a",
+        installdir = "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6",
+        sysincludedirs = "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6/include",
+        __requirestr = "raylib",
+        linkdirs = "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6/lib",
+        __enabled = true,
+        envs = {
+            DYLD_LIBRARY_PATH = {
+                "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6/lib",
+                "/Users/jorge/.xmake/packages/c/cmake/3.30.2/921ba545fcc04f5e9f8e40feacab1d46/lib",
+                "/Users/jorge/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5/lib"
+            },
+            PATH = {
+                "/Users/jorge/.xmake/packages/c/cmake/3.30.2/921ba545fcc04f5e9f8e40feacab1d46/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6/lib",
+                "/Users/jorge/.xmake/packages/c/cmake/3.30.2/921ba545fcc04f5e9f8e40feacab1d46/lib",
+                "/Users/jorge/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5/lib"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    xcode_arch_arm64_plat_macosx = {
+        arch = "arm64",
+        xcode = "/Applications/Xcode.app",
+        target_minver = "12.3",
+        plat = "macosx",
+        __global = true,
+        xcode_sysroot = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        xcode_sdkver = "12.3",
+        bindir = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin"
+    },
+    zig_arch_arm64_plat_macosx = {
+        arch = "arm64",
+        __global = true,
+        zig = "/opt/homebrew/bin/zig",
+        plat = "macosx"
+    },
+    tool_target_my_game_macosx_arm64_cxx = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+        toolname = "clang",
+        toolchain_info = {
+            arch = "arm64",
+            name = "xcode",
+            plat = "macosx",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    },
+    tool_target_my_game_macosx_arm64_ld = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+        toolname = "clangxx",
+        toolchain_info = {
+            arch = "arm64",
+            name = "xcode",
+            plat = "macosx",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    }
+}

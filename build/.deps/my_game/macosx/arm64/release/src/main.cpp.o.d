@@ -1,0 +1,42 @@
+{
+    depfiles_gcc = "build/.objs/my_game/macosx/arm64/release/src/__cpp_main.cpp.cpp:   src/main.cpp src/../include/grid.h\
+",
+    values = {
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+        {
+            "-Qunused-arguments",
+            "-target",
+            "arm64-apple-macos12.3",
+            "-isysroot",
+            "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+            "-fvisibility=hidden",
+            "-fvisibility-inlines-hidden",
+            "-O3",
+            "-std=c++11",
+            "-Iinclude",
+            "-DGL_SILENCE_DEPRECATION",
+            "-framework",
+            "CoreVideo",
+            "-framework",
+            "CoreGraphics",
+            "-framework",
+            "AppKit",
+            "-framework",
+            "IOKit",
+            "-framework",
+            "CoreFoundation",
+            "-framework",
+            "Foundation",
+            "-framework",
+            "OpenGL",
+            "-isystem",
+            "/Users/jorge/.xmake/packages/r/raylib/5.0/db7fa922ae0d4b6a8496788b114407b6/include",
+            "-Wall",
+            "-Wextra",
+            "-DNDEBUG"
+        }
+    },
+    files = {
+        "src/main.cpp"
+    }
+}
